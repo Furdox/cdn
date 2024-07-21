@@ -1,2 +1,2 @@
 # cdn
-non-SpaceHey hosting
+general host
