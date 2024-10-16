@@ -1,0 +1,497 @@
+@font-face {
+    font-family: Rubik;
+    src: url(https://files.catbox.moe/bhmg0a.ttf);
+}
+* {
+    font-family: Rubik;
+}
+a {
+    color: cyan;
+}
+a:hover {
+    color: #f90;
+}
+a:hover {
+    color: red;
+}
+.visited, h5.post-title a:not(.effortpost-flair):visited, a[href^="https://"]:not([href^="https://rdrama.net" i], [href^="https://watchpeopledie.tv" i], .dropdown-item, .nav-link, .novisited):visited
+{
+    color: #87d300 !important;
+}
+.srd {
+    width: 100%;
+    background-color: var(--boxbg);
+    padding: 2px;
+    padding-top: 2px;
+    padding-top: calc(2px + var(--safe-area-inset-top));
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #ff7eeb;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link .fa,
+.navbar-light .navbar-nav .nav-link .fas,
+.navbar-light .navbar-nav .nav-link .far,
+.navbar-light .navbar-nav .nav-link .fab {
+    color: black;
+}
+#profile--name span::after {
+    content: " •w•     |     ^w^   >//w//<   OwO   UwU   -w-";
+}
+#profile-mobile--name::after {
+    content: " •w•";
+}
+#profile--name {
+    text-align: center;
+    margin-top: 5px !important;
+}
+body {
+    background-color: #030;
+    color: white;
+}
+:root {
+    --background: 0, 51, 0;
+    --primary: #009900;
+    --black: white;
+    --muted: white;
+    --gray-200: black;
+    --winbarcolor: linear-gradient(to right, #f20, #f40, #f90, #fa0);
+    --boxbg: #088a;
+    --windowsborder: #0ffa #00fa #00fa #0ffa;
+    --windowsborderred: #ff6565 #ff0000 #ff0000 #ff6565;
+    --buttontbg: rgba(255, 0, 180, 0.4) !important;
+}
+.profile-pic,
+.profile-pic-20,
+.pp20,
+.profile-pic-25,
+.profile-pic-30,
+.profile-pic-35,
+.profile-pic-50,
+.profile-pic-65,
+.profile-pic-75,
+.profile-pic-100,
+img[src^="/pp/"],
+img[src^="/uid/"],
+img[src$="/pic"] {
+    border-radius: 10%;
+}
+.profile-pic-100-wrapper {
+    margin-top: 5px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container,
+#userpage > div.container-fluid,
+#root > div.App,
+.orgy-top-container {
+    background: transparent !important;
+}
+row d-mob-none {
+    display: grid;
+}
+container-fluid nobackground {
+    display: grid;
+}
+d-md-flex text-center text-md-left {
+    display: grid;
+}
+#profilestuff {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+justify-content-between {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+.profile-pic-100-wrapper {
+    width: 0px !important;
+    height: 300px;
+}
+.profile-pic-100,
+.profile-pic-100-hat {
+    width: 300px;
+    height: 300px;
+    width: 16vw;
+    height: 16vw;
+}
+.profile-pic-100-hat {
+    margin-top: 20px;
+    position: absolute;
+    top: -50px;
+    width: 17vw;
+    height: 17vw;
+}
+#desktopUserBanner {
+    background-image: none !important;
+    background-color: transparent;
+}
+.jumbotron-guild {
+    background-color: var(--boxbg);
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborder);
+    background: var(--boxbg);
+    font-family: Rubik;
+    margin-bottom-no: 20px;
+}
+.jumbotron-guild .jumbotron-overlay {
+    background-color: var(--boxbg);
+}
+#navbar {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborderred);
+    padding: 0 0 3px 0;
+    text-align: center;
+    width: 100%;
+}
+#navbar,
+#navbar .container,
+#navbar .container-fluid {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborderred);
+    background-image: var(--winbarcolor);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    margin-bottom: 0;
+}
+#navbar {
+    margin-nonosquare: 15px 10px 14px 10px;
+    padding: 0px;
+}
+#navbar .container,
+#navbar .container-fluid {
+    border-style: none;
+}
+col px-0 {
+    margin-top: 15px;
+}
+d-md-flex text-center text-md-left {
+    margin-top: 10px;
+}
+container-fluid nobackground {
+    margin-top: 5px;
+}
+
+.container,
+.container-fluid {
+    margin-bottom: 0;
+}
+.container,
+.container-fluid {
+    padding-bottom: 2vh;
+}
+
+.general-about,
+.container-fluid .row,
+.directory--link,
+textarea,
+#reply-form-body-u_2236332 {
+    border-style: outset;
+    border-radius: 0px !important;
+    border-width: 2px;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    background-color: var(--boxbg) !important;
+    margin-top: 0;
+    font-family: Rubik;
+    padding: 15px;
+}
+* {
+    font-family: Rubik;
+}
+body {
+    background-color: #030;
+    background-attachment: fixed;
+    font-family: Rubik;
+}
+body {
+    background: #030
+        url("https://i.watchpeopledie.tv/images/1718239901743924.webp") center
+        center fixed !important;
+    background-size: auto;
+}
+a {
+    color: cyan;
+}
+a:hover {
+    color: red;
+}
+:root {
+    --background: 0, 51, 0;
+}
+img.site-banner {
+    height: 0% !important;
+}
+.banner-wrapper div {
+    padding: 0px !important;
+}
+.col a.btn {
+    margin-bottom: 10px;
+}
+.sidebar {
+    background: #0303;
+    border-radius: 10px;
+}
+.sidebar {
+    background: var(--boxbg);
+    margin-left: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+    border-style: outset;
+    border-color: var(--windowsborder);
+    border-width: 2px;
+}
+.mt-2,
+.my-2 {
+    margin-top: 1.5rem !important;
+}
+.arrow-up::before,
+.arrow-up::after {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: white;
+    font-family: "font awesome 5 pro" !important;
+    font-weight: 900;
+}
+.d-inline-block {
+    display: inline-block !important;
+    margin-bottom: 10px;
+}
+.general-about,
+.directory--link,
+#casino-game-wrapper,
+.actual-post {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborder);
+    background: var(--boxbg) !important;
+    margin-top: 0;
+    font-family: Rubik;
+}
+#thread .card {
+    background-color: #0000;
+}
+
+.format-btns button,
+.format-btns label,
+.comment-write button,
+.actionbtns button {
+    border-width: 2px;
+    border-radius: 0px !important;
+    border-style: outset;
+    background: var(--buttontbg) !important;
+    background-color: var(--buttontbg) !important;
+    padding: 5px;
+    color: #f90;
+    border-color: var(--windowsborderred);
+    border-color: #f60 !important;
+}
+
+#message-preview-mobile,
+#message-preview {
+    border-style: none;
+    border-radius: 0px !important;
+    border-width: 0px;
+    margin-top: 0;
+    font-family: Rubik;
+    padding: 0px;
+}
+.container-fluid {
+    background-color: transparent !important;
+}
+.container-fluid .row:first-of-type img {
+    height: 0px !important;
+}
+.container-fluid .row:first-of-type {
+    border-color: transparent !important;
+    background: transparent !important;
+    padding: 0px;
+}
+#profile-mobile--pfp {
+    margin-top: 10px !important;
+}
+.ml-3,
+.mx-3 {
+    margin-left: 0rem !important;
+}
+.comment-section,
+.notifs {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborder);
+    background: var(--boxbg) !important;
+    background-color: var(--boxbg);
+    margin-top: 0;
+    font-family: Rubik;
+    padding-left: 10px !important;
+}
+.posts {
+    padding-left: 0px !important;
+}
+.comment-section.row {
+    background: transparent !important;
+}
+.p-3 {
+    padding-left: 10px !important;
+}
+#frontpage .posts .card,
+#userpage .posts .card,
+#search .posts .card {
+    border-style: outset;
+    border-color: var(--windowsborder);
+    margin: 8px;
+    border-width: 2px;
+}
+row no-gutters {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborder);
+    background: var(--boxbg);
+    margin-top: 0;
+    font-family: Rubik;
+}
+.settings-nav {
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--windowsborder);
+    background: var(--boxbg);
+    font-family: Rubik;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.settings-nav > .nav-item > .nav-link.active {
+    color: red;
+    border-bottom: 3px solid red;
+}
+.pagination {
+    border-width: 2px;
+    border-color: var(--windowsborderred);
+    background-image: linear-gradient(to right, #f209, #f409, #f909, #e8e28e99);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+.page-item {
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#profile--groups,
+#profile--awards,
+#profile-mobile--groups,
+#profile-mobile--awards {
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #f60;
+    border-style: solid;
+    border-radius: 20px !important;
+    border-width: 3px;
+    background-color: rgba(255, 0, 180, 0.4) !important;
+}
+#header--icon {
+    content: url(https://files.catbox.moe/jttt5q.gif) !important;
+    height: 48px !important;
+    width: 48px !important;
+}
+#logo-WPD {
+    width: 200px;
+    height: 50px;
+    content: url(https://files.catbox.moe/sb5vs3.png) !important;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.visited, h5.post-title a:not(.effortpost-flair):visited, a[href^="https://"]:not([href^="https://rdrama.net" i], [href^="https://watchpeopledie.tv" i], .dropdown-item, .nav-link, .novisited):visited
+{
+    color: #e9b8ff !important;
+}
+
+.sidebar {
+    background: var(--boxbg);
+    margin-left: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+    border-style: outset;
+    border-color: var(--windowsborder);
+    border-width: 2px;
+}
+.page-link {
+    background: #0305;
+}
+.settings-nav .nav-link {
+    color: white;
+    font-weight: 400;
+    padding: 0.75rem 1rem;
+}
+
+#button-sub {
+    font-size: 26px;
+    content: "FOLLOW :3";
+}
+#button-sub:after {
+    font-size: 26px;
+    content: "FOLLOW :3";
+
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mute-notifs button {
+    content: "Don't mute me >:(";
+}
+.toBeReplaced {
+    visibility: hidden;
+    position: relative;
+}
+.toBeReplaced:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "This text replaces the original.";
+}
+#profile--followers {
+    font-size: 20px;
+    padding-top: -4px;
+}
+#profile--bio hr,
+#profile-mobile--bio hr {
+    color: #f00;
+    height: 2px;
+    width: 450px;
+    border-top: 0;
+    background-color: #f00;
+}
+#profile-mobile--bio hr {
+    width: 250px;
+}
