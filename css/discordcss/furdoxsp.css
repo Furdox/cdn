@@ -1,0 +1,360 @@
+* {
+    font-family: "Rubik" !important;
+}
+
+strong {
+    font-weight: 800 !important;
+}
+
+.channelAppLauncher_df39bd,
+.app-launcher-entrypoint,
+[aria-label="Envoyer un cadeau"],
+[aria-label="Ouvrir l'onglet des GIF"],
+[aria-label="Ouvrir le sélecteur d'autocollant"] {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-left: 0;
+}
+
+[aria-label="Open Translate Modal"] {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-left: 0;
+}
+
+[aria-label="Plus d'options"] {
+    padding: 10px;
+}
+
+.footer_aa1bff {
+    display: none;
+}
+body, .appMount_ea7e65 {
+    background: #030
+    url("https://cdn.discordapp.com/emojis/1218985964085448724.gif?size=128&quality=lossless") center
+    center fixed !important;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+:root, .theme-dark {
+    --font-primary: Rubik;
+    --text-link: #0ff;
+    --text-normal: white;
+    --channels-default: white;
+    --bg-overlay-chat: #0300;
+    --channeltextarea-background: var(--inputbg);
+    --background-primary: #030;
+    --background-secondary: var(--inputbg);
+    --background-secondary-alt: var(--boxbg);
+    --__header-bar-background: var(--winbarcolor);
+    --bg-overlay-2: var(--winbarcolor);
+    --background-tertiary: transparent;
+    --channel-text-area-placeholder: #ccc;
+    --bg-overlay-app-frame: transparent;
+    --shadow-ledge: none;
+    --channel-icon: var(--buttonregcolor);
+    --interactive-normal: var(--buttonregcolor);
+    --interactive-hover: var(--buttonregcolorhover);
+    --background-mentioned: #0f05;
+    --text-muted: #caa;
+    --background-modifier-selected: var(--selectedbgcolor);
+    --background-modifier-hover: var(--hoverbgcolor);
+    --background-modifier-active: var(--activebgcolor);
+    --background-nested-floating: var(--boxbg);
+
+    --winbarcolor: linear-gradient(to right, #f20, #f40, #f90, #fa0);
+    --boxbg: #088a;
+    --windowsborder: #0ffa #00fa #00fa #0ffa;
+    --windowsborderred: #ff6565 #ff0000 #ff0000 #ff6565;
+    --buttontbg: rgba(255, 0, 180, 0.4);
+    --buttonregcolor: #ff0;
+    --buttonregcolorhover: #cc0;
+    --buttonbordercolor: #f60;
+    --pfpbordercolor: var(--inputbordercolor);
+    --inputbg: rgba(109, 0, 186, 0.6);
+    --inputbordercolor: rgba(255, 0, 230, 0.6);
+    --selectedbgcolor: rgba(82, 0, 137, 0.6);
+    --selectedbordercolor: rgba(194, 0, 130, 0.6);
+    --hoverbgcolor: rgba(128, 0, 219, 0.6);
+    --hoverbordercolor: rgba(255, 0, 230, 0.6);
+    --activebgcolor: rgba(194, 0, 130, 0.6);
+    --activebordercolor: rgba(200, 0, 200, 0.6);
+    --embedbg: #50f;
+    --embedborder: rgb(30, 62, 0);
+    border-radius: 0 !important;
+}
+a:hover {
+    color: #f00;
+}
+
+a.link_c91bad:active {
+    color: #f0f
+}
+
+[role="separator"] {
+    border-bottom: 1px yellow solid;
+}
+
+.content_c2654d {
+    background-color: var(--inputbg);
+    border-radius: 0;
+    border: outset;
+    border-width: 3px;
+    border-color: var(--inputbordercolor);
+}
+
+main {
+    margin: 20px;
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    height: calc(100vh - 48px - 60px - 10px);
+}
+
+.scroller_fea3ef {
+    /*margin: 20px;
+    border: inset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    width: 80px;*/
+}
+
+.container_cbd271 {
+    margin: 20px;
+    margin-left: 0px;
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    height: calc(100vh - 48px - 60px - 10px);
+}
+
+.container_ee69e0 {
+    margin-top: 20px;
+    /*margin-left: 20px;*/
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    /*left: 20px;*/
+}
+.sidebar_a4d4d9 {
+    background: transparent;
+}
+
+.privateChannels_f0963d {
+    margin-top: 20px;
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+}
+.theme-dark .scroller_c47fa9 {
+    background-color: transparent;
+}
+
+.subtitleContainer_a7d72e {
+    margin: 20px;
+    margin-bottom: 0;
+    border: outset;
+    border-color: var(--windowsborderred) !important;
+    background: var(--winbarcolor) !important;
+}
+
+.wrapper_fea3ef {
+
+}
+
+section .panels_a4d4d9, .panels_a4d4d9 {
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+}
+
+.channelTextArea_a7d72e {
+    background-color: var(--inputbg);
+}
+.themedBackground_bdf0de {
+    border: solid;
+    border-radius: 0;
+    border-color: var(--inputbordercolor);
+}
+
+img.emoji {
+    border: none !important;
+}
+
+.button_dd4f85 .contents_dd4f85 {
+    color: var(--buttonregcolor);
+}
+
+.messageListItem_d5deea img {
+    border-radius: 0 !important;
+    border: outset;
+    border-color: var(--pfpbordercolor);
+}
+.imageContainer_cf58b5, .imageWrapper_d4597d, .visualMediaItemContainer_cda674, .oneByOneGridSingle_cda674 {
+    border-radius: 0 !important;
+}
+.oneByOneGridSingle_cda674, .imageWrapper_d4597d{
+    border: outset;
+    border-color: #f40;
+}
+.oneByOneGridSingle_cda674 .imageWrapper_d4597d {
+    border: none;
+}
+.visualMediaItemContainer_cda674, .inlineMediaEmbed_b0068a {
+    border: outset;
+    margin-top: 5px;
+    margin-bottom: -9px;
+    border-color: #f400;
+}
+.container_b558d0 img {
+    border: none;
+}
+img.avatarDecoration_f9f2ca {
+    border: outset;
+    border-color: transparent;
+}
+
+.topicsPillContainer_cf58b5 {
+    background: var(--inputbg);
+    border: outset;
+    border-color: var(--inputbordercolor);
+    border-radius: 0;
+}
+
+.vc-membercount-widget {
+    display: flex;
+}
+
+.theme-dark .children_fc4f04:after {
+    display: none;
+}
+
+
+.menu_d90b3d {
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    border-radius: 0;
+}
+.label_d90b3d {
+    color: white;
+}
+.colorDefault_d90b3d.focused_d90b3d {
+    background-color: var(--hoverbgcolor);
+    border: outset;
+    border-color: var(--hoverbordercolor);
+    color: white;
+}
+
+.mentioned_d5deea {
+    margin: 15px;
+    margin-right: 5px;
+    left: -5px;
+    padding-bottom: 10px !important;
+    border: outset;
+    border-color: orange;
+}
+.interactiveSelected_c91bad, .modeSelected_d8bfb3 {
+    border: outset;
+    border-radius: 0;
+    border-color: var(--selectedbordercolor);
+    background-color: var(--selectedbgcolor);
+}
+.interactive_f5eb4b:hover, .interactive_f5eb4b:focus-within {
+    border: outset;
+    border-radius: 0;
+    border-color: var(--hoverbordercolor);
+}
+
+.username_f9f2ca, .headerLabel_e06857 {
+    color: white;
+}
+.username_f9f2ca:hover {
+    color: var(--hoverbgcolor);
+}
+.username_f9f2ca:active {
+    color: var(--activebgcolor);
+}
+
+.wrapper_d8bfb3 {
+
+}
+.wrapper_d8bfb3:hover {
+    background-color: var(--hoverbgcolor);
+    border: outset;
+    border-color: var(--hoverbordercolor);
+}
+.wrapper_d8bfb3:active {
+    background-color: var(--activebgcolor);
+    border: outset;
+    border-color: var(--activebordercolor);
+}
+
+.content_a4d4d9, .base_a4d4d9 {
+    background: transparent;
+}
+
+.container_a823cd {
+    margin: 20px;
+    margin-left: 0;
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    height: calc(100vh - 48px - 60px - 10px);
+}
+
+.fieldList_b69b77 {
+    padding: 10px;
+}
+
+.embedFull_b0068a {
+    border: outset;
+    border-radius: 0;
+    background: var(--embedbg);
+    border-color: var(--embedborder);
+    padding: 5px;
+    margin: 5px;
+}
+
+.popoverReactionHoverBar_e986d9 {
+    box-shadow: none;
+    border: outset;
+    border-radius: 0;
+    border-color: var(--windowsborder);
+    background: var(--background-nested-floating);
+}
+
+.button_a24e84 {
+    background-color: #30f;
+    border-radius: 30%;
+}
+
+.title_a7d72e {
+    background: var(--winbarcolor) !important;
+}
+
+.contentWrapper_af5dbb {
+    border: outset;
+    border-color: var(--windowsborder) !important;
+    background: var(--boxbg) !important;
+    border-radius: 0;
+}
+
+.searchBar_a46bef {
+    background-color: purple;
+    border: outset;
+    border-color: violet;
+    height: 30px;
+}
+
+.scroller_d53d65, .header_a3bc57 {
+    background: var(--boxbg);
+}
