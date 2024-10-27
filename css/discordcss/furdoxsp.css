@@ -221,10 +221,11 @@ img.emoji {
     border: outset;
     border-color: var(--pfpbordercolor);
 }
-/*more settings*/ .themeSelectionContainer_cb7c27, .appIconSelectionContainer_e2863f img {
-    border: solid #0f0 1px;
+/*more settings*/ .themeSelectionContainer_cb7c27, .appIconSelectionContainer_e2863f img, .themeSelection_cb7c27, .appIconSelection_e2863f {
+    border: solid #0f0 0.5px;
+    border-radius: 0;
 }
-/*more settings*/ .themeSelectionContainer_cb7c27:hover, .appIconSelectionContainer_e2863f img:hover {
+/*more settings*/ .themeSelectionContainer_cb7c27:hover, .appIconSelectionContainer_e2863f img:hover, .themeSelection_cb7c27:hover, .appIconSelection_e2863f:hover {
     border-color: var(--hoverbordercolor);
 }
 
