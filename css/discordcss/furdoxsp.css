@@ -31,7 +31,7 @@ strong {
 .footer_aa1bff {
     display: none;
 }
-body, .appMount_ea7e65, [class="scroller_d53d65 videoGrid_bae578 thin_c49869 scrollerBase_c49869 fade_c49869"] {
+body, .appMount_ea7e65, [class="scroller_d53d65 videoGrid_bae578 thin_c49869 scrollerBase_c49869 fade_c49869"], .callContainer_d880dc {
     background: #030
     url("https://cdn.discordapp.com/emojis/1218985964085448724.gif?size=128&quality=lossless") center
     center fixed !important;
@@ -204,6 +204,12 @@ section .panels_a4d4d9, .panels_a4d4d9 {
 
 img.emoji {
     border: none !important;
+}
+
+.emojiItem_fbfedd img {
+    position: absolute;
+    left: 1px;
+    top: 1px;
 }
 
 .button_dd4f85 .contents_dd4f85 {
