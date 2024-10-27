@@ -228,6 +228,7 @@ img.emoji {
 .oneByOneGridSingle_cda674, .imageWrapper_d4597d{
     border: outset;
     border-color: #f40;
+    width: 98%;
 }
 .oneByOneGridSingle_cda674 .imageWrapper_d4597d {
     border: none;
@@ -237,6 +238,7 @@ img.emoji {
     margin-top: 5px;
     margin-bottom: -9px;
     border-color: #f400;
+    width: 105%;
 }
 .container_b558d0 img {
     border: none;
