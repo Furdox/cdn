@@ -37,10 +37,6 @@ body, .appMount_ea7e65, [class="scroller_d53d65 videoGrid_bae578 thin_c49869 scr
     center fixed !important;
 }
 
-* {
-    border-radiusa: 0 !important;
-}
-
 :root, .theme-dark {
     --font-primary: Rubik;
     --text-link: #0ff;
